@@ -12,7 +12,7 @@
   font-style: normal;
 }
 
-    /* Header */
+    /* header */
 
 /* navbar-section*/
 
@@ -39,6 +39,7 @@ nav button{
     border: none;
     border-radius: 10px;
     background-color: #4E47FF;
+    cursor: pointer;
 }
 
 /* banner-section */
@@ -67,6 +68,54 @@ nav button{
     border: none;
     border-radius: 10px;
     background-color: #4E47FF;
+    cursor: pointer;
 }
 
+     /* main */
 
+/* action-section */
+
+.action-section{
+    display: flex;
+}
+
+.action-txt{
+    margin-top: 250px;
+    margin-left: 140px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-des{
+    width: 517px;
+    height: 60px;
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #252432a7;
+}
+
+.action-section img{
+    width: 400px;
+    height: 330px;
+    margin-top: 250px;
+    margin-left: 250px;
+    border-radius: 48px;
+}
+
+.action-section button{
+    width: 230px;
+    height: 50px;
+    margin-top: -5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
