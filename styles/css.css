@@ -12,7 +12,13 @@
     font-style: normal;
 }
 
-/* header */
+/* for all */
+
+.animation:hover {
+    background: #4338ca;
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 0 15px 35px rgb(13, 0, 255);
+}
 
 /* navbar-section*/
 
@@ -45,6 +51,9 @@ nav button {
     border-radius: 10px;
     background-color: #4E47FF;
     cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 /* banner-section */
@@ -74,6 +83,9 @@ nav button {
     border-radius: 10px;
     background-color: #4E47FF;
     cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 /* main */
@@ -123,6 +135,9 @@ nav button {
     border-radius: 10px;
     background-color: #4E47FF;
     cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 /* productive user section */
@@ -220,22 +235,23 @@ nav button {
 
 /* focus Section */
 
-.focus-section{
+.focus-section {
     width: 1140px;
     height: 700px;
     margin-top: 140px;
     margin-left: 150px;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.149);
+    border-radius: 14px;
+    box-shadow: 0px 8px 20px #4d47ff62;
 }
 
-.focus-section h1{
+.focus-section h1 {
     padding-top: 70px;
     margin-left: 312px;
     font-size: 50px;
     font-weight: bold;
 }
 
-.focus-section p{
+.focus-section p {
     font-size: 20px;
     font-weight: 300;
     margin-top: -10px;
@@ -243,7 +259,7 @@ nav button {
     color: #1E1E1E;
 }
 
-.focus-section button{
+.focus-section button {
     width: 195px;
     height: 50px;
     border: none;
@@ -254,10 +270,80 @@ nav button {
     border-radius: 10px;
     margin-left: 473px;
     cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
-.focus-section img{
+.focus-section img {
     margin-top: 20px;
     margin-left: 150px;
     border-radius: 48px;
+}
+
+/* Get in touch part */
+
+.get-touch {
+    height: 635px;
+    border-radius: 18px;
+    margin-top: 93px;
+    display: flex;
+    background: #4d47ff08;
+}
+
+.txt-part {
+    width: 530px;
+    height: 230px;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.info-part {
+    margin-left: 115px;
+    margin-top: 70px;
+}
+
+.info-part p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info-part input {
+    width: 497px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.058);
+}
+
+.info-part textarea {
+    width: 500px;
+    height: 135px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.058);
+}
+
+.info-part button {
+    width: 500px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.058);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
