@@ -183,8 +183,7 @@ nav button {
 .card-container {
     padding: 24px;
     border-radius: 16px;
-    gap: 25px
-    ;
+    gap: 25px;
     display: flex;
     margin-top: 50px;
 }
@@ -217,4 +216,48 @@ nav button {
 .card-des {
     margin-top: -8px;
     color: #1E1E1E;
+}
+
+/* focus Section */
+
+.focus-section{
+    width: 1140px;
+    height: 700px;
+    margin-top: 140px;
+    margin-left: 150px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.149);
+}
+
+.focus-section h1{
+    padding-top: 70px;
+    margin-left: 312px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-section p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -10px;
+    margin-left: 290px;
+    color: #1E1E1E;
+}
+
+.focus-section button{
+    width: 195px;
+    height: 50px;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: 200px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 473px;
+    cursor: pointer;
+}
+
+.focus-section img{
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 48px;
 }
